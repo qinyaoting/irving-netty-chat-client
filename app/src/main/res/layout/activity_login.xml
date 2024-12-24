@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/acLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/chat_login_bg"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/ip_addr"
+        android:layout_marginTop="@dimen/dp_20"
+        style="@style/common_edittext_style"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:hint="192.168.1.137"
+        android:textSize="@dimen/sp_15" />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_marginTop="@dimen/dp_20"
+        style="@style/common_edittext_style"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:hint="8060"
+        android:textSize="@dimen/sp_15"/>
+
+    <EditText
+        android:id="@+id/nick_name"
+        android:layout_marginTop="@dimen/dp_20"
+        style="@style/common_edittext_style"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:hint="tomcat"
+        android:textSize="@dimen/sp_15"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/item_pwd"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_10"
+        android:button="@null"
+        android:drawableStart="@drawable/selector_is_remember_pwd"
+        android:drawablePadding="@dimen/dp_4"
+        android:text="记住用户"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_13"
+        tools:ignore="RtlCompat" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/do_login"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:textSize="@dimen/sp_15"
+        android:text="登录"
+        android:gravity="center"
+        android:textColor="@color/selector_login_txt"
+        android:background="@drawable/selector_login_txt_bg"/>
+
+</LinearLayout>

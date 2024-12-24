@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/jmui_chat_item_receive_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/system_chat_sendtime"
+        android:text="2019-02-19 15:59"
+        style="@style/jmui_chat_text_date_style"/>
+
+    <TextView
+        android:id="@+id/system_chat_content"
+        android:text="已与服务器建立连接"
+        style="@style/jmui_chat_text_date_style"/>
+
+</LinearLayout>
